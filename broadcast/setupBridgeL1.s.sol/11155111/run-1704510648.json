@@ -1,0 +1,58 @@
+{
+  "transactions": [
+    {
+      "hash": "0x7f5d9844179a606cbfebb5edcddcbd4c2b2154b6dc7789a76b6442461f9edb79",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x18cC97fffBBEEE7C6896c7688A3eB984e9281b68",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x23ca0c2219de2c5a6bf13b66897303c2766f3de5",
+        "to": "0x18cc97fffbbeee7c6896c7688a3eb984e9281b68",
+        "gas": "0xed0e",
+        "value": "0x0",
+        "data": "0x77061e4d0000000000000000000000001c4b56e223760baf351d317abe5390ca1de2eb7e",
+        "nonce": "0x97",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0f6ad606750c12e47166d324d1246ec690ddffaee3fe95945b490c3efcb092b0",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x8CF45fF2c7124A3bA046eA768e204617fD487cEA",
+      "function": "updateTokenMapping(address,address)",
+      "arguments": [
+        "0x18cC97fffBBEEE7C6896c7688A3eB984e9281b68",
+        "0x1C4b56e223760BAF351d317Abe5390ca1de2eB7e"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x23ca0c2219de2c5a6bf13b66897303c2766f3de5",
+        "to": "0x8cf45ff2c7124a3ba046ea768e204617fd487cea",
+        "gas": "0x12153",
+        "value": "0x0",
+        "data": "0xfac752eb00000000000000000000000018cc97fffbbeee7c6896c7688a3eb984e9281b680000000000000000000000001c4b56e223760baf351d317abe5390ca1de2eb7e",
+        "nonce": "0x98",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x7f5d9844179a606cbfebb5edcddcbd4c2b2154b6dc7789a76b6442461f9edb79",
+    "0x0f6ad606750c12e47166d324d1246ec690ddffaee3fe95945b490c3efcb092b0"
+  ],
+  "returns": {},
+  "timestamp": 1704510648,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "dc03728"
+}
